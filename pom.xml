@@ -83,7 +83,9 @@
         <deploymentType>arm</deploymentType>
         <username>amit_sharma</username>
         <password>Mule12!@</password>
-        <target>server-name</target>
+       <target>CloudHub</target>
+            <!-- One of: server, serverGroup, cluster -->
+            <domain>http://mavencisample.cloudhub.io</domain>
         <!-- One of: server, serverGroup, cluster: -->
         <targetType>server</targetType>
         <environment>Production</environment>
